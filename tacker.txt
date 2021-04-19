@@ -15,5 +15,6 @@ NEW
 npm install bootstrap --save
 npm install axios
 npm install recharts
+npm install --save react-chartjs-2 chart.js@2.9.4
 
-https://www.chartjs.org/docs/latest/samples/area/line-boundaries.html
+https://www.chartjs.org/docs/latest/charts/line.html

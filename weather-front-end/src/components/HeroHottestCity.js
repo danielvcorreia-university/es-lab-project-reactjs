@@ -26,8 +26,9 @@ class HeroHottestCity extends React.Component {
                             this.state.data.map(
                                 city =>
                                 <div key={city.id}>
-                                    <h1 className="display-4">{city.cityname} é a cidade mais quente em Portugal</h1>
-                                    <p className="lead">Última atualização: {city.publicationDateTime}</p>
+                                    <h1 className="display-4">{city.cityname} obteve o maior registo de temperatura em Portugal neste mês</h1>                                   
+                                    <p className="lead">Data: {city.publicationDateTime}</p>
+                                    <p>Temperatura registada: {city.temp}ºC</p>
                                 </div> 
                             )
                         }
